@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2717543F1BB0EBF9007D8BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717543E1BB0EBF9007D8BC5 /* AppDelegate.swift */; };
+		271754411BB0EBF9007D8BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271754401BB0EBF9007D8BC5 /* ViewController.swift */; };
+		271754431BB0EBF9007D8BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271754421BB0EBF9007D8BC5 /* Assets.xcassets */; };
+		271754461BB0EBF9007D8BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271754441BB0EBF9007D8BC5 /* Main.storyboard */; };
+		271754511BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271754501BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.swift */; };
+		2717545C1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717545B1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2717544D1BB0EBF9007D8BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 271754331BB0EBF9007D8BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2717543A1BB0EBF9007D8BC5;
+			remoteInfo = ForceTouchVolumeControl;
+		};
+		271754581BB0EBF9007D8BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 271754331BB0EBF9007D8BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2717543A1BB0EBF9007D8BC5;
+			remoteInfo = ForceTouchVolumeControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2717543B1BB0EBF9007D8BC5 /* ForceTouchVolumeControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTouchVolumeControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2717543E1BB0EBF9007D8BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		271754401BB0EBF9007D8BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		271754421BB0EBF9007D8BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		271754451BB0EBF9007D8BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		271754471BB0EBF9007D8BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2717544C1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchVolumeControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		271754501BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchVolumeControlTests.swift; sourceTree = "<group>"; };
+		271754521BB0EBF9007D8BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271754571BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchVolumeControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2717545B1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchVolumeControlUITests.swift; sourceTree = "<group>"; };
+		2717545D1BB0EBF9007D8BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271754381BB0EBF9007D8BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271754491BB0EBF9007D8BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271754541BB0EBF9007D8BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271754321BB0EBF9007D8BC5 = {
+			isa = PBXGroup;
+			children = (
+				2717543D1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */,
+				2717544F1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests */,
+				2717545A1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests */,
+				2717543C1BB0EBF9007D8BC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2717543C1BB0EBF9007D8BC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2717543B1BB0EBF9007D8BC5 /* ForceTouchVolumeControl.app */,
+				2717544C1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.xctest */,
+				271754571BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2717543D1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */ = {
+			isa = PBXGroup;
+			children = (
+				2717543E1BB0EBF9007D8BC5 /* AppDelegate.swift */,
+				271754401BB0EBF9007D8BC5 /* ViewController.swift */,
+				271754421BB0EBF9007D8BC5 /* Assets.xcassets */,
+				271754441BB0EBF9007D8BC5 /* Main.storyboard */,
+				271754471BB0EBF9007D8BC5 /* Info.plist */,
+			);
+			path = ForceTouchVolumeControl;
+			sourceTree = "<group>";
+		};
+		2717544F1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				271754501BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.swift */,
+				271754521BB0EBF9007D8BC5 /* Info.plist */,
+			);
+			path = ForceTouchVolumeControlTests;
+			sourceTree = "<group>";
+		};
+		2717545A1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2717545B1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.swift */,
+				2717545D1BB0EBF9007D8BC5 /* Info.plist */,
+			);
+			path = ForceTouchVolumeControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2717543A1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271754601BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControl" */;
+			buildPhases = (
+				271754371BB0EBF9007D8BC5 /* Sources */,
+				271754381BB0EBF9007D8BC5 /* Frameworks */,
+				271754391BB0EBF9007D8BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForceTouchVolumeControl;
+			productName = ForceTouchVolumeControl;
+			productReference = 2717543B1BB0EBF9007D8BC5 /* ForceTouchVolumeControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2717544B1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271754631BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControlTests" */;
+			buildPhases = (
+				271754481BB0EBF9007D8BC5 /* Sources */,
+				271754491BB0EBF9007D8BC5 /* Frameworks */,
+				2717544A1BB0EBF9007D8BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2717544E1BB0EBF9007D8BC5 /* PBXTargetDependency */,
+			);
+			name = ForceTouchVolumeControlTests;
+			productName = ForceTouchVolumeControlTests;
+			productReference = 2717544C1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		271754561BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271754661BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControlUITests" */;
+			buildPhases = (
+				271754531BB0EBF9007D8BC5 /* Sources */,
+				271754541BB0EBF9007D8BC5 /* Frameworks */,
+				271754551BB0EBF9007D8BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				271754591BB0EBF9007D8BC5 /* PBXTargetDependency */,
+			);
+			name = ForceTouchVolumeControlUITests;
+			productName = ForceTouchVolumeControlUITests;
+			productReference = 271754571BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		271754331BB0EBF9007D8BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = C453;
+				TargetAttributes = {
+					2717543A1BB0EBF9007D8BC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2717544B1BB0EBF9007D8BC5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2717543A1BB0EBF9007D8BC5;
+					};
+					271754561BB0EBF9007D8BC5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2717543A1BB0EBF9007D8BC5;
+					};
+				};
+			};
+			buildConfigurationList = 271754361BB0EBF9007D8BC5 /* Build configuration list for PBXProject "ForceTouchVolumeControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 271754321BB0EBF9007D8BC5;
+			productRefGroup = 2717543C1BB0EBF9007D8BC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2717543A1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */,
+				2717544B1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests */,
+				271754561BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		271754391BB0EBF9007D8BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271754431BB0EBF9007D8BC5 /* Assets.xcassets in Resources */,
+				271754461BB0EBF9007D8BC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2717544A1BB0EBF9007D8BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271754551BB0EBF9007D8BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		271754371BB0EBF9007D8BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271754411BB0EBF9007D8BC5 /* ViewController.swift in Sources */,
+				2717543F1BB0EBF9007D8BC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271754481BB0EBF9007D8BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271754511BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271754531BB0EBF9007D8BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2717545C1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2717544E1BB0EBF9007D8BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2717543A1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */;
+			targetProxy = 2717544D1BB0EBF9007D8BC5 /* PBXContainerItemProxy */;
+		};
+		271754591BB0EBF9007D8BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2717543A1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */;
+			targetProxy = 271754581BB0EBF9007D8BC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		271754441BB0EBF9007D8BC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271754451BB0EBF9007D8BC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2717545E1BB0EBF9007D8BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2717545F1BB0EBF9007D8BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		271754611BB0EBF9007D8BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ForceTouchVolumeControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		271754621BB0EBF9007D8BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ForceTouchVolumeControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		271754641BB0EBF9007D8BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ForceTouchVolumeControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchVolumeControl.app/Contents/MacOS/ForceTouchVolumeControl";
+			};
+			name = Debug;
+		};
+		271754651BB0EBF9007D8BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ForceTouchVolumeControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchVolumeControl.app/Contents/MacOS/ForceTouchVolumeControl";
+			};
+			name = Release;
+		};
+		271754671BB0EBF9007D8BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ForceTouchVolumeControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForceTouchVolumeControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		271754681BB0EBF9007D8BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ForceTouchVolumeControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForceTouchVolumeControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		271754361BB0EBF9007D8BC5 /* Build configuration list for PBXProject "ForceTouchVolumeControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2717545E1BB0EBF9007D8BC5 /* Debug */,
+				2717545F1BB0EBF9007D8BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		271754601BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271754611BB0EBF9007D8BC5 /* Debug */,
+				271754621BB0EBF9007D8BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		271754631BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271754641BB0EBF9007D8BC5 /* Debug */,
+				271754651BB0EBF9007D8BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		271754661BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271754671BB0EBF9007D8BC5 /* Debug */,
+				271754681BB0EBF9007D8BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 271754331BB0EBF9007D8BC5 /* Project object */;
+}
