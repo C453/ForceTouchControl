@@ -13,6 +13,8 @@
 		271754461BB0EBF9007D8BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271754441BB0EBF9007D8BC5 /* Main.storyboard */; };
 		271754511BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271754501BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.swift */; };
 		2717545C1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717545B1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.swift */; };
+		27C1E0761BB19241001E2995 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C1E0751BB19241001E2995 /* AppKit.framework */; };
+		3D4B4A347B83A8D8C5896ED9 /* libPods-ForceTouchControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 389D731279C3B3A2EEEDDC04 /* libPods-ForceTouchControl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +35,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2717543B1BB0EBF9007D8BC5 /* ForceTouchVolumeControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTouchVolumeControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2717543B1BB0EBF9007D8BC5 /* ForceTouchControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTouchControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2717543E1BB0EBF9007D8BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		271754401BB0EBF9007D8BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		271754421BB0EBF9007D8BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271754451BB0EBF9007D8BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		271754471BB0EBF9007D8BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2717544C1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchVolumeControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2717544C1BB0EBF9007D8BC5 /* ForceTouchControl.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchControl.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		271754501BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchVolumeControlTests.swift; sourceTree = "<group>"; };
 		271754521BB0EBF9007D8BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		271754571BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchVolumeControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		271754571BB0EBF9007D8BC5 /* ForceTouchControl.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchControl.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2717545B1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceTouchVolumeControlUITests.swift; sourceTree = "<group>"; };
 		2717545D1BB0EBF9007D8BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B561E11BB1E3E400CB46B3 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
+		27C1E0751BB19241001E2995 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		389D731279C3B3A2EEEDDC04 /* libPods-ForceTouchControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ForceTouchControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD330E2BA76F055C08A0FA5 /* libPods-ForceTouchVolumeControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ForceTouchVolumeControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800A684012A02A7D71669B1B /* Pods-ForceTouchVolumeControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForceTouchVolumeControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForceTouchVolumeControl/Pods-ForceTouchVolumeControl.debug.xcconfig"; sourceTree = "<group>"; };
+		F4E36ABF3335AA63EA92594F /* Pods-ForceTouchVolumeControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForceTouchVolumeControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForceTouchVolumeControl/Pods-ForceTouchVolumeControl.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C1E0761BB19241001E2995 /* AppKit.framework in Frameworks */,
+				3D4B4A347B83A8D8C5896ED9 /* libPods-ForceTouchControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,76 +85,103 @@
 		271754321BB0EBF9007D8BC5 = {
 			isa = PBXGroup;
 			children = (
-				2717543D1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */,
-				2717544F1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests */,
-				2717545A1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests */,
+				27C1E0751BB19241001E2995 /* AppKit.framework */,
+				2717543D1BB0EBF9007D8BC5 /* ForceTouchControl */,
+				2717544F1BB0EBF9007D8BC5 /* ForceTouchControlTests */,
+				2717545A1BB0EBF9007D8BC5 /* ForceTouchControlUITests */,
 				2717543C1BB0EBF9007D8BC5 /* Products */,
+				CA8D267D5ED2106C1A84474C /* Pods */,
+				70D42D8CF59C4D780D2BCB21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2717543C1BB0EBF9007D8BC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2717543B1BB0EBF9007D8BC5 /* ForceTouchVolumeControl.app */,
-				2717544C1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.xctest */,
-				271754571BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.xctest */,
+				2717543B1BB0EBF9007D8BC5 /* ForceTouchControl.app */,
+				2717544C1BB0EBF9007D8BC5 /* ForceTouchControl.xctest */,
+				271754571BB0EBF9007D8BC5 /* ForceTouchControl.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2717543D1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */ = {
+		2717543D1BB0EBF9007D8BC5 /* ForceTouchControl */ = {
 			isa = PBXGroup;
 			children = (
+				27B561E11BB1E3E400CB46B3 /* Bridging-Header.h */,
 				2717543E1BB0EBF9007D8BC5 /* AppDelegate.swift */,
 				271754401BB0EBF9007D8BC5 /* ViewController.swift */,
 				271754421BB0EBF9007D8BC5 /* Assets.xcassets */,
 				271754441BB0EBF9007D8BC5 /* Main.storyboard */,
 				271754471BB0EBF9007D8BC5 /* Info.plist */,
 			);
+			name = ForceTouchControl;
 			path = ForceTouchVolumeControl;
 			sourceTree = "<group>";
 		};
-		2717544F1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests */ = {
+		2717544F1BB0EBF9007D8BC5 /* ForceTouchControlTests */ = {
 			isa = PBXGroup;
 			children = (
 				271754501BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.swift */,
 				271754521BB0EBF9007D8BC5 /* Info.plist */,
 			);
+			name = ForceTouchControlTests;
 			path = ForceTouchVolumeControlTests;
 			sourceTree = "<group>";
 		};
-		2717545A1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests */ = {
+		2717545A1BB0EBF9007D8BC5 /* ForceTouchControlUITests */ = {
 			isa = PBXGroup;
 			children = (
 				2717545B1BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.swift */,
 				2717545D1BB0EBF9007D8BC5 /* Info.plist */,
 			);
+			name = ForceTouchControlUITests;
 			path = ForceTouchVolumeControlUITests;
+			sourceTree = "<group>";
+		};
+		70D42D8CF59C4D780D2BCB21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FD330E2BA76F055C08A0FA5 /* libPods-ForceTouchVolumeControl.a */,
+				389D731279C3B3A2EEEDDC04 /* libPods-ForceTouchControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA8D267D5ED2106C1A84474C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				800A684012A02A7D71669B1B /* Pods-ForceTouchVolumeControl.debug.xcconfig */,
+				F4E36ABF3335AA63EA92594F /* Pods-ForceTouchVolumeControl.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2717543A1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */ = {
+		2717543A1BB0EBF9007D8BC5 /* ForceTouchControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 271754601BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControl" */;
+			buildConfigurationList = 271754601BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchControl" */;
 			buildPhases = (
+				95DCBB54C234B3BDCD89BE2A /* Check Pods Manifest.lock */,
 				271754371BB0EBF9007D8BC5 /* Sources */,
 				271754381BB0EBF9007D8BC5 /* Frameworks */,
 				271754391BB0EBF9007D8BC5 /* Resources */,
+				1CF6DB287199D191BA11E27A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ForceTouchVolumeControl;
+			name = ForceTouchControl;
 			productName = ForceTouchVolumeControl;
-			productReference = 2717543B1BB0EBF9007D8BC5 /* ForceTouchVolumeControl.app */;
+			productReference = 2717543B1BB0EBF9007D8BC5 /* ForceTouchControl.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2717544B1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests */ = {
+		2717544B1BB0EBF9007D8BC5 /* ForceTouchControlTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 271754631BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControlTests" */;
+			buildConfigurationList = 271754631BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchControlTests" */;
 			buildPhases = (
 				271754481BB0EBF9007D8BC5 /* Sources */,
 				271754491BB0EBF9007D8BC5 /* Frameworks */,
@@ -155,14 +192,14 @@
 			dependencies = (
 				2717544E1BB0EBF9007D8BC5 /* PBXTargetDependency */,
 			);
-			name = ForceTouchVolumeControlTests;
+			name = ForceTouchControlTests;
 			productName = ForceTouchVolumeControlTests;
-			productReference = 2717544C1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests.xctest */;
+			productReference = 2717544C1BB0EBF9007D8BC5 /* ForceTouchControl.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		271754561BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests */ = {
+		271754561BB0EBF9007D8BC5 /* ForceTouchControlUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 271754661BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControlUITests" */;
+			buildConfigurationList = 271754661BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchControlUITests" */;
 			buildPhases = (
 				271754531BB0EBF9007D8BC5 /* Sources */,
 				271754541BB0EBF9007D8BC5 /* Frameworks */,
@@ -173,9 +210,9 @@
 			dependencies = (
 				271754591BB0EBF9007D8BC5 /* PBXTargetDependency */,
 			);
-			name = ForceTouchVolumeControlUITests;
+			name = ForceTouchControlUITests;
 			productName = ForceTouchVolumeControlUITests;
-			productReference = 271754571BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests.xctest */;
+			productReference = 271754571BB0EBF9007D8BC5 /* ForceTouchControl.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 271754361BB0EBF9007D8BC5 /* Build configuration list for PBXProject "ForceTouchVolumeControl" */;
+			buildConfigurationList = 271754361BB0EBF9007D8BC5 /* Build configuration list for PBXProject "ForceTouchControl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2717543A1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */,
-				2717544B1BB0EBF9007D8BC5 /* ForceTouchVolumeControlTests */,
-				271754561BB0EBF9007D8BC5 /* ForceTouchVolumeControlUITests */,
+				2717543A1BB0EBF9007D8BC5 /* ForceTouchControl */,
+				2717544B1BB0EBF9007D8BC5 /* ForceTouchControlTests */,
+				271754561BB0EBF9007D8BC5 /* ForceTouchControlUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +282,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CF6DB287199D191BA11E27A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForceTouchControl/Pods-ForceTouchControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DCBB54C234B3BDCD89BE2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		271754371BB0EBF9007D8BC5 /* Sources */ = {
@@ -277,12 +347,12 @@
 /* Begin PBXTargetDependency section */
 		2717544E1BB0EBF9007D8BC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2717543A1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */;
+			target = 2717543A1BB0EBF9007D8BC5 /* ForceTouchControl */;
 			targetProxy = 2717544D1BB0EBF9007D8BC5 /* PBXContainerItemProxy */;
 		};
 		271754591BB0EBF9007D8BC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2717543A1BB0EBF9007D8BC5 /* ForceTouchVolumeControl */;
+			target = 2717543A1BB0EBF9007D8BC5 /* ForceTouchControl */;
 			targetProxy = 271754581BB0EBF9007D8BC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -381,25 +451,31 @@
 		};
 		271754611BB0EBF9007D8BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800A684012A02A7D71669B1B /* Pods-ForceTouchVolumeControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ForceTouchVolumeControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchControl;
+				PRODUCT_NAME = ForceTouchControl;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
 		271754621BB0EBF9007D8BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E36ABF3335AA63EA92594F /* Pods-ForceTouchVolumeControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ForceTouchVolumeControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchControl;
+				PRODUCT_NAME = ForceTouchControl;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
 		};
@@ -411,8 +487,8 @@
 				INFOPLIST_FILE = ForceTouchVolumeControlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControlTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchVolumeControl.app/Contents/MacOS/ForceTouchVolumeControl";
+				PRODUCT_NAME = ForceTouchControl;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchControl.app/Contents/MacOS/ForceTouchControl";
 			};
 			name = Debug;
 		};
@@ -424,8 +500,8 @@
 				INFOPLIST_FILE = ForceTouchVolumeControlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControlTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchVolumeControl.app/Contents/MacOS/ForceTouchVolumeControl";
+				PRODUCT_NAME = ForceTouchControl;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForceTouchControl.app/Contents/MacOS/ForceTouchControl";
 			};
 			name = Release;
 		};
@@ -436,7 +512,7 @@
 				INFOPLIST_FILE = ForceTouchVolumeControlUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControlUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ForceTouchControl;
 				TEST_TARGET_NAME = ForceTouchVolumeControl;
 				USES_XCTRUNNER = YES;
 			};
@@ -449,7 +525,7 @@
 				INFOPLIST_FILE = ForceTouchVolumeControlUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C453.ForceTouchVolumeControlUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ForceTouchControl;
 				TEST_TARGET_NAME = ForceTouchVolumeControl;
 				USES_XCTRUNNER = YES;
 			};
@@ -458,7 +534,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		271754361BB0EBF9007D8BC5 /* Build configuration list for PBXProject "ForceTouchVolumeControl" */ = {
+		271754361BB0EBF9007D8BC5 /* Build configuration list for PBXProject "ForceTouchControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2717545E1BB0EBF9007D8BC5 /* Debug */,
@@ -467,29 +543,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		271754601BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControl" */ = {
+		271754601BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				271754611BB0EBF9007D8BC5 /* Debug */,
 				271754621BB0EBF9007D8BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		271754631BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControlTests" */ = {
+		271754631BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchControlTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				271754641BB0EBF9007D8BC5 /* Debug */,
 				271754651BB0EBF9007D8BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		271754661BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchVolumeControlUITests" */ = {
+		271754661BB0EBF9007D8BC5 /* Build configuration list for PBXNativeTarget "ForceTouchControlUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				271754671BB0EBF9007D8BC5 /* Debug */,
 				271754681BB0EBF9007D8BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
